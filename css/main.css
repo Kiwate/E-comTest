@@ -7,6 +7,14 @@
 
    body h1,p,a,div,form{
    		font-family: 'Revalia', cursive;
+   		color :#2170c1;
+   }
+
+   .jumbotron h1, .jumbotron p {
+   		color:#2a6eb5;
+   }
+   footer p, footer form {
+   		color:#9d9d9d;
    }
 
    .nav>li>a {
@@ -14,6 +22,12 @@
    }
 
 /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+
+	.navbar-inverse {
+		background-image: linear-gradient(to bottom,#3c3c3c 0,#000 100%);
+		border-color: transparent;
+	}
+
     .navbar {
       margin-bottom: 50px;
       border-radius: 0;
@@ -21,23 +35,28 @@
     
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
-      padding-bottom:200px;
       margin-bottom: 0px;
-      height: 250px;
+      height: 180px;
     }
    
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #353535;
+      background-image: linear-gradient(to bottom,#3c3c3c 0,#000 100%);
       padding: 25px;
     }
 
     .panel-heading{
     	background-color: #0E0E0E;
-    	border-color: #333;
 
     }
 
+    .panel {
+    	border-color : #333;
+    }
+
+    input[type="email"] {
+    	background-color: #CCC;
+    }
 
 
 
