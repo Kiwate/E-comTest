@@ -77,12 +77,22 @@
 
     }
 
+    .img-thumbnail {
+    	border: 0;
+    	background-color: #212121;
+    }
+
     .panel {
     	border-color : #333;
     }
 
     .panel-body {
     	background-image: linear-gradient(to bottom,#888 0,#000 100%);
+    }
+
+    .panel-footer {
+    	background-image: linear-gradient(to bottom,#000 0,#3c3c3c 100%);
+    	border-top: 0;
     }
 
     .sign {
