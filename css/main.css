@@ -8,6 +8,10 @@
    body h1,p,a,div,form{
    		font-family: 'Revalia', cursive;
    		color :#055367;
+
+   }
+   body {
+   	background-color: #000;
    }
 
    
@@ -63,7 +67,7 @@
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
       margin-bottom: 0px;
-      height: 180px;
+      height: 200px;
     }
    
     /* Add a gray background color and some padding to the footer */

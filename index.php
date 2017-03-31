@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style1.css" />
         <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
         <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
@@ -52,7 +51,6 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
-        <li><a href="#">Deals</a></li>
         <li><a href="#">Stores</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -69,21 +67,21 @@
     <div class="col-sm-4">
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/1.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/1.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy a planet !</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/2.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/2.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy an asteroid !</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/3.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/3.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy a star !</div>
       </div>
     </div>
@@ -95,21 +93,21 @@
     <div class="col-sm-4">
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/4.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/4.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy a Black Hole !</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/5.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/5.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy a galaxy !</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="images/products/6.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></div>
+        <div class="panel-body"><a href="#"><img src="images/products/6.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
         <div class="panel-footer">Buy a nebuleuse !</div>
       </div>
     </div>
