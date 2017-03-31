@@ -1,3 +1,20 @@
+<?php 
+
+session_start();
+
+$app_folder = './functions/';
+
+include_once $app_folder.'config.php';
+
+include_once $app_folder.'models.php';
+
+
+try {
+    $bdd = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $user, $pass);
+}
+catch(Exception $e) {
+    die('Erreur : ' . $e->getMessage());
+} ?>
 <!doctype html>
 <html class="no-js" lang="fr">
     <head>
