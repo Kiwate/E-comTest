@@ -5,6 +5,39 @@
    ========================================================================== */
 
 
+   body h1,p,a,div,form{
+   		font-family: 'Revalia', cursive;
+   }
+
+   .nav>li>a {
+   		padding:15px 5px;
+   }
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      padding-bottom:200px;
+      margin-bottom: 0px;
+      height: 250px;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #353535;
+      padding: 25px;
+    }
+
+    .panel-heading{
+    	background-color: #0E0E0E;
+    	border-color: #333;
+
+    }
+
 
 
 
