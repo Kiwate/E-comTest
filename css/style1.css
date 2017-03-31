@@ -32,17 +32,17 @@
 }
 .cb-slideshow li div { 
     z-index: 1000;
-    position: absolute;
+    position: relative;
     bottom: 30px;
     left: 0px;
     width: 100%;
     text-align: center;
     opacity: 0;
-   /* -webkit-animation: titleAnimation 36s linear infinite 0s;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s; */
+    animation: titleAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li div h3 { 
     font-size: 240px;

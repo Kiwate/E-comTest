@@ -10,8 +10,12 @@
    		color :#055367;
    }
 
+   
+
+
    .jumbotron h1, .jumbotron p {
    		color:#053d5b;
+   		text-shadow: 2px 2px 7px #000;
    }
 
    .logo {
@@ -24,6 +28,12 @@
    	filter: grayscale(70%);
    	transition: filter 0.5s ease;
    }
+
+
+   .navbar-inverse .navbar-inverse>li>a:hover {
+   	color: #4d828c;
+   }
+   
 
    .navbar-brand:hover {
    	filter: grayscale(0%);
@@ -63,12 +73,20 @@
     }
 
     .panel-heading{
-    	background-color: #0E0E0E;
+    	background-image: linear-gradient(to bottom,#3c3c3c 0,#000 100%);
 
     }
 
     .panel {
     	border-color : #333;
+    }
+
+    .panel-body {
+    	background-image: linear-gradient(to bottom,#888 0,#000 100%);
+    }
+
+    .sign {
+    	background-image: linear-gradient(to bottom,#4d828c 0,#333 100%);
     }
 
     input[type="email"] {
