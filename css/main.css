@@ -14,12 +14,40 @@
    	background-color: #000;
    }
 
-   
+   .thumbnail {
+    border:none;
+    background-color: #222;
+   }
+
+   .form-control {
+    text-align: center;
+    width:50%;
+    margin: auto auto;
+   }
+
+   .well {
+    background-color: #222;
+    background-image: none;
+    border:none;
+   }
+
+   #signup {
+    color: #7b1313
+   }
+
+   .contact {
+    color: #FFF;
+    text-shadow: 2px 2px 7px #000;
+   }
 
 
    .jumbotron h1, .jumbotron p {
    		color:#053d5b;
    		text-shadow: 2px 2px 7px #000;
+   }
+
+   .jumbotron {
+    background-color: transparent;
    }
 
    .logo {
@@ -29,19 +57,24 @@
    .navbar-brand {
    	padding-top: 2.5px;
    	padding-bottom: 0px;
-   	filter: grayscale(70%);
-   	transition: filter 0.5s ease;
    }
 
+   .shine {
+    filter: grayscale(100%);
+    transition: filter 2s;
+   }
+
+   .dark {
+    filter:grayscale(0%);
+    transition: filter 2s;
+   }
 
    .navbar-inverse .navbar-inverse>li>a:hover {
    	color: #4d828c;
    }
    
 
-   .navbar-brand:hover {
-   	filter: grayscale(0%);
-   }
+   
 
 
    footer p, footer form {

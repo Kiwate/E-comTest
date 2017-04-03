@@ -26,6 +26,7 @@ catch(Exception $e) {
         <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
         <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
         <meta name="author" content="Codrops" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -62,17 +63,17 @@ catch(Exception $e) {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img class="logo" src="images/logospace.png" /></a>
+      <a class="navbar-brand" href="http://iisc.im/" target="_blank"><img class="logo fa-spin shine" src="images/logospace.png" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Stores</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="pages/product.php">Products</a></li>
+        <li><a href="pages/stores.php">Stores</a></li>
+        <li><a href="pages/contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="pages/signin.php"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
       </ul>
     </div>
@@ -125,7 +126,7 @@ catch(Exception $e) {
       <div class="panel">
         <div class="panel-heading">BLACK FRIDAY DEAL</div>
         <div class="panel-body"><a href="#"><img src="images/products/6.jpg" class="img-responsive img-thumbnail" style="width:100%; height:150px;" alt="Image"></a></div>
-        <div class="panel-footer">Buy a nebuleuse !</div>
+        <div class="panel-footer">Buy a nebula !</div>
       </div>
     </div>
   </div>
